@@ -1,8 +1,0 @@
-﻿Log level is set to Informational (Default).
-Error opening test data: Data schema version was 3350644, expected 27.
-Test data was cleared upon opening.
-Test data store opened in 0.006 sec.
-No tests found to run.
-No tests found to run.
-No tests found to run.
-No tests found to run.
