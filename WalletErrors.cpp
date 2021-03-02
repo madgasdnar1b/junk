@@ -2,14 +2,12 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#pragma once
-
-#include <string>
-
-#include "CryptoNoteCore/Currency.h"
+#include "WalletErrors.h"
 
 namespace CryptoNote {
+namespace error {
 
-bool validateAddress(const std::string& address, const CryptoNote::Currency& currency);
+WalletErrorCategory WalletErrorCategory::INSTANCE;
 
+}
 }

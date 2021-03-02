@@ -5,11 +5,10 @@
 #pragma once
 
 #include <string>
-
-#include "CryptoNoteCore/Currency.h"
+#include <ostream>
 
 namespace CryptoNote {
 
-bool validateAddress(const std::string& address, const CryptoNote::Currency& currency);
+void importLegacyKeys(const std::string& legacyKeysFilename, const std::string& password, std::ostream& destination);
 
-}
+} //namespace CryptoNote
